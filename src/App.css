@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  height:auto;
+  margin-top: 3rem;
+}
+
+.formulario {
+  background-color: silver;
+  padding: 2rem;
+  border-radius: 6px;
+}
+
+.formulario input{
+  display: block;
+  margin-bottom: 1rem;
+  width: 100%;
+  padding: 3px 7px;
+  border: none;
+  border-radius: 4px;
+}
+
+.formulario label {
+  font-weight:700;
+}
+
+.list-users{
+  border: 1px black solid;
+  border-radius: 5px;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    display: block;
+  }
+}

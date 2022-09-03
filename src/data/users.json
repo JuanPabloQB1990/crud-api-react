@@ -1,0 +1,16 @@
+{
+  "Users": [
+    {
+      "nombres": "Mateo",
+      "apellidos": "Quintero Bustamante",
+      "edad": "26",
+      "id": 1
+    },
+    {
+      "nombres": "Faber",
+      "apellidos": "Amaya",
+      "edad": "62",
+      "id": 2
+    }
+  ]
+}
